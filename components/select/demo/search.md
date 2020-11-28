@@ -44,9 +44,6 @@ ReactDOM.render(
     onFocus={onFocus}
     onBlur={onBlur}
     onSearch={onSearch}
-    filterOption={(input, option) =>
-      option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
-    }
   >
     <Option value="jack">Jack</Option>
     <Option value="lucy">Lucy</Option>
